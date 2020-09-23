@@ -34,7 +34,7 @@ Bài làm của nhóm:
 
 <div>
 Bài làm của nhóm:
-<a href="https://colab.research.google.com/github/khanh-moriaty/CS112.L11.KHTN/blob/master/week2/docs/week2_countingStars.ipynb">
+<a href="https://colab.research.google.com/github/khanh-moriaty/CS112.L11.KHTN/blob/master/week2/docs/counting_stars.ipynb">
   <div align="">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" />
   </div>
