@@ -1,7 +1,7 @@
+from sys import stdin, stdout
 from collections import Counter
 
-n = input()
-n = [x for x in n.strip() if x.isnumeric()]
+n = stdin.readline().strip()
 count = Counter(n)
 tong = sum(map(int, n)) % 3
 
@@ -22,5 +22,5 @@ if tong:
         count[x] -= t
 
 for x in sorted(count.keys(), reverse=True):
-    print(x * count[x], end='')
+    stdout.write(x * count[x])
 print()
