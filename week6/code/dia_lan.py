@@ -1,32 +1,57 @@
 t = input().strip().split()
 n,m =  [int(x) for x in t]
 a = input().strip().split()
-a = [int(x) for x in a]
-it = [0] * n * 4 + [0]
-def update(k,l,r,u,v):
-    #print(k,u,l,r)
-    if (u > r or u < l): 
-        return
-    if (l==r):
-        it[k] = v
-        return
-    mid = (l + r)//2
-    update(k*2,l,mid,u,v)
-    update(k*2+1,mid+1,r,u,v)
-    it[k] = it[k*2] & it[k*2+1]
-def get(k,l,r,u,v):
-    if (v<l or u>r): 
-        return 2**12-1
-    if (l>=u and r<=v):
-        return it[k]
-    mid = (l+r)//2
-    return get(k*2,l,mid,u,v) & get(k*2+1,mid+1,r,u,v)
-for i in range(n):
-    update(1,1,n,i+1,a[i])
-for i in range(n):
-    #print(get(1,1,n,i+1,i+m),i+1,i+m)
-    if (get(1,1,n,i+1,i+m)==0):
-        print('YES')
-        exit()
-#print(4&3)
-print('NO')
+
+def bit_xor(a, b):
+    return [a_i is not b_i for a_i, b_i in zip(a,b)]
+    
+def bit_or(a, b):
+    return [a_i or b_i for a_i, b_i in zip(a,b)]
+
+max_bit = 2**12
+bit_mask = [True] * 12
+
+def str2bit(x):
+    a = [False] * 12
+    x = int(x)
+    d = 11
+    while x > 0:
+        if x % 2:
+            a[d] = True
+        x = x // 2
+        d -= 1
+        
+    return bit_xor(a, bit_mask)
+        
+def inc():
+    a = [False] * 12
+    while True:
+        yield a
+        for i, a_i in enumerate(a[::-1]):
+            if a_i:
+                a[-i-1] = False
+            else:
+                a[-i-1] = True
+                break
+inc = inc()
+
+def bit2int(a):
+    x = 0
+    pow = 1
+    for a_i in a[::-1]:
+        if a_i:
+            x += pow
+        pow *= 2
+    return x
+
+a = map(str2bit, a)
+res = [0] + [1000000] * (max_bit-1)
+for a_j in a:
+    for i, res_i in zip(inc, res):
+        c = bit_or(i, a_j)
+        d = bit2int(c)
+        res[d] = min(res[d], res_i+1)
+if res[max_bit - 1] > m :
+    print('NO')
+else:
+    print('YES')
