@@ -7,7 +7,7 @@ MSSV: <i>19520084</i></p>
 <p><b> Nguyễn Minh Huy </b><br> 
 MSSV: <i>19520109</i></p>
 
-<h2> Bài tập: Mức độ giống nhau <br> </h2>
+<h2> Bài tập: Phân số <br> </h2>
 
 <a href="https://khmt.uit.edu.vn/laptrinh/cs112-2021/view_problem/7/13">
   Đường dẫn đến đề bài
@@ -24,7 +24,7 @@ Bài làm của nhóm:
 </a>
 </div>
 
-<h2> Bài tập: Địa lan <br> </h2>
+<h2> Bài tập: Xâu con tương đương <br> </h2>
 
 <a href="https://khmt.uit.edu.vn/laptrinh/cs112-2021/view_problem/7/14">
   Đường dẫn đến đề bài
