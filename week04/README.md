@@ -17,7 +17,7 @@ MSSV: <i>19520109</i></p>
 
 <div>
 Bài làm của nhóm:
-<a href="https://colab.research.google.com/github/khanh-moriaty/CS112.L11.KHTN/blob/master/week4/docs/doi_moi.ipynb">
+<a href="https://colab.research.google.com/github/khanh-moriaty/CS112.L11.KHTN/blob/master/week04/docs/doi_moi.ipynb">
   <div align="">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" />
   </div>
@@ -34,7 +34,7 @@ Bài làm của nhóm:
 
 <div>
 Bài làm của nhóm:
-<a href="https://colab.research.google.com/github/khanh-moriaty/CS112.L11.KHTN/blob/master/week4/docs/tai_cau_truc.ipynb">
+<a href="https://colab.research.google.com/github/khanh-moriaty/CS112.L11.KHTN/blob/master/week04/docs/tai_cau_truc.ipynb">
   <div align="">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" />
   </div>
