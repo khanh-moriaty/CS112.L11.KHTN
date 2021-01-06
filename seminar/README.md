@@ -26,7 +26,7 @@ Trả lời:
 Đầu tiên, ví dụ mà nhóm chúng em đưa ra nhằm để show mọi người cách Computational Thinking được áp dụng vào việc giải quyết các bài toán.
 Cụ thể, thông qua các bước Decomposition và Pattern Recognition, chúng ta có thể đi tới lời giải quy hoạch động một cách tự nhiên, 
 sau đó tiếp tục đặt vấn đề tối ưu truy vấn tìm max và tìm cách giải quyết bằng cây Fenwick, cuối cùng là hoàn thiện lời giải bằng kỹ thuật nén số.
-<br>
+<br> <br>
 Thứ hai, lí do nhóm em không giới thiệu cây phân đoạn mà lại đề cập đến cây Fenwick là vì đây là một cấu trúc dữ liệu rất thú vị,
 cấu trúc dữ liệu này cho chúng ta biết thêm nhiều điều thú vị về các phép thao tác bit. 
 Ngoài ra còn một lưu ý khác rất quan trọng: nếu sử dụng đúng trường hợp và bài toán, mà cụ thể là bài toán này, cây Fenwick tiết kiệm bộ nhớ gấp 4 lần so với cây phân đoạn!
