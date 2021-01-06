@@ -24,7 +24,7 @@ Tuy nhiên các phần tử trong dãy A có thể chứa số rất lớn nên 
 <h4> 3. Tại sao xài Fenwick Tree? </h4>
 Trả lời: 
 <br>
-Đầu tiên, ví dụ mà nhóm chúng em đưa ra nhằm để show mọi người cách Computational Thinking được áp dụng vào việc giải quyết các bài toán.
+Đầu tiên, ví dụ mà nhóm chúng em đưa ra nhằm để show mọi người cách Computational Thinking được áp dụng như thế nào vào việc giải quyết các bài toán.
 Cụ thể, thông qua các bước Decomposition và Pattern Recognition, chúng ta có thể đi tới lời giải quy hoạch động một cách tự nhiên, 
 sau đó tiếp tục đặt vấn đề tối ưu truy vấn tìm max và tìm cách giải quyết bằng cây Fenwick, cuối cùng là hoàn thiện lời giải bằng kỹ thuật nén số.
 <br> <br>
