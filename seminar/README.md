@@ -13,6 +13,7 @@ Trả lời:
 <br>
 BFS và DFS khác nhau ở thứ tự duyệt cây, cụ thể là thứ tự duyệt các nhánh của lời giải cho bài toán này. 
 Trong các trường hợp khác nhau thì 2 thuật toán có thể có tốc độ khác nhau, tuy nhiên tính theo trung bình thì độ hiệu quả của cả hai là như nhau.
+Ở đây nhóm em áp dụng DFS vì ưu điểm dễ cài đặt dễ debug.
 <br> <br>
 <h4> 2. Trong cây Fenwick, tại sao phải nén số? </h4>
 Trả lời: 
@@ -30,7 +31,7 @@ sau đó tiếp tục đặt vấn đề tối ưu truy vấn tìm max và tìm 
 Thứ hai, lí do nhóm em không giới thiệu cây phân đoạn mà lại đề cập đến cây Fenwick là vì đây là một cấu trúc dữ liệu rất thú vị,
 cấu trúc dữ liệu này cho chúng ta biết thêm nhiều điều mới mẻ về các phép thao tác bit. 
 <br>
-Ngoài ra còn một lưu ý khác rất quan trọng: nếu sử dụng đúng trường hợp và bài toán, mà cụ thể là bài toán này, cây Fenwick tiết kiệm bộ nhớ gấp 4 lần so với cây phân đoạn!
+Ngoài ra còn một lưu ý khác rất quan trọng: nếu áp dụng đúng trường hợp và bài toán, mà cụ thể là bài toán này, cây Fenwick tiết kiệm bộ nhớ gấp 4 lần so với cây phân đoạn!
 Điều này cho thấy rằng việc khéo léo lựa chọn giải thuật và cấu trúc dữ liệu hợp lí ảnh hưởng rất nhiều đến độ hiệu quả của một lời giải.
 <br>
 
